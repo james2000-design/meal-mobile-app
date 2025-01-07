@@ -11,6 +11,7 @@ import MealsOverviewScreen from "../screens/MealsOverviewScreen";
 import MealDetailScreen from "../screens/MealDetailScreen";
 import FavoritesScreen from "../screens/FavoritesScreen";
 import { store } from "../store/redux/store";
+import React from "react";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();

@@ -2,7 +2,6 @@ import { useLayoutEffect } from "react";
 
 import MealsList from "../components/MealsList/MealsList";
 import { MEALS, CATEGORIES } from "../data/dummy-data";
-import Category from "@/models/category";
 
 function MealsOverviewScreen({ route, navigation }: any) {
   const catId = route.params.categoryId;
